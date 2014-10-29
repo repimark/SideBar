@@ -14,6 +14,9 @@
 		86D29AD719FBB2F3007A42DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86D29AD619FBB2F3007A42DF /* Images.xcassets */; };
 		86D29ADA19FBB2F3007A42DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86D29AD819FBB2F3007A42DF /* LaunchScreen.xib */; };
 		86D29AE619FBB2F4007A42DF /* SideBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D29AE519FBB2F4007A42DF /* SideBarTests.m */; };
+		86D29AF219FBB519007A42DF /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D29AF119FBB519007A42DF /* SWRevealViewController.m */; };
+		86D29AF519FBBF96007A42DF /* NavigationViewControllerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D29AF419FBBF96007A42DF /* NavigationViewControllerTableViewController.m */; };
+		86D29AFB19FBC3F4007A42DF /* nemu.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D29AFA19FBC3F4007A42DF /* nemu.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,11 @@
 		86D29ADF19FBB2F4007A42DF /* SideBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SideBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86D29AE419FBB2F4007A42DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86D29AE519FBB2F4007A42DF /* SideBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SideBarTests.m; sourceTree = "<group>"; };
+		86D29AF019FBB519007A42DF /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		86D29AF119FBB519007A42DF /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		86D29AF319FBBF96007A42DF /* NavigationViewControllerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewControllerTableViewController.h; sourceTree = "<group>"; };
+		86D29AF419FBBF96007A42DF /* NavigationViewControllerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewControllerTableViewController.m; sourceTree = "<group>"; };
+		86D29AFA19FBC3F4007A42DF /* nemu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nemu.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +94,8 @@
 				86D29AD019FBB2F3007A42DF /* ViewController.h */,
 				86D29AD119FBB2F3007A42DF /* ViewController.m */,
 				86D29AD319FBB2F3007A42DF /* Main.storyboard */,
+				86D29AF319FBBF96007A42DF /* NavigationViewControllerTableViewController.h */,
+				86D29AF419FBBF96007A42DF /* NavigationViewControllerTableViewController.m */,
 				86D29AD619FBB2F3007A42DF /* Images.xcassets */,
 				86D29AD819FBB2F3007A42DF /* LaunchScreen.xib */,
 				86D29AC919FBB2F3007A42DF /* Supporting Files */,
@@ -96,6 +106,8 @@
 		86D29AC919FBB2F3007A42DF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				86D29AFA19FBC3F4007A42DF /* nemu.png */,
+				86D29AEF19FBB519007A42DF /* SlideOutMenuFiles */,
 				86D29ACA19FBB2F3007A42DF /* Info.plist */,
 				86D29ACB19FBB2F3007A42DF /* main.m */,
 			);
@@ -117,6 +129,15 @@
 				86D29AE419FBB2F4007A42DF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86D29AEF19FBB519007A42DF /* SlideOutMenuFiles */ = {
+			isa = PBXGroup;
+			children = (
+				86D29AF019FBB519007A42DF /* SWRevealViewController.h */,
+				86D29AF119FBB519007A42DF /* SWRevealViewController.m */,
+			);
+			path = SlideOutMenuFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86D29AFB19FBC3F4007A42DF /* nemu.png in Resources */,
 				86D29AD519FBB2F3007A42DF /* Main.storyboard in Resources */,
 				86D29ADA19FBB2F3007A42DF /* LaunchScreen.xib in Resources */,
 				86D29AD719FBB2F3007A42DF /* Images.xcassets in Resources */,
@@ -221,7 +243,9 @@
 			files = (
 				86D29AD219FBB2F3007A42DF /* ViewController.m in Sources */,
 				86D29ACF19FBB2F3007A42DF /* AppDelegate.m in Sources */,
+				86D29AF519FBBF96007A42DF /* NavigationViewControllerTableViewController.m in Sources */,
 				86D29ACC19FBB2F3007A42DF /* main.m in Sources */,
+				86D29AF219FBB519007A42DF /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NavigationViewControllerTableViewController.h
 //  SideBar
 //
 //  Created by Márk Repits on 2014.10.25..
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-@property (weak, nonatomic) IBOutlet UIBarButtonItem *barButton;
+@interface NavigationViewControllerTableViewController : UITableViewController
 
 @end
-
